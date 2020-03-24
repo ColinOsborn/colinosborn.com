@@ -1,5 +1,7 @@
 # README
 
+Personal/portfolio site to display what I've worked on and about me
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

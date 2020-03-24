@@ -4,6 +4,7 @@ RSpec.feature "User wants to found out about me" do
     scenario "they land on the homepage and want to find out who I am" do
         
         visit '/home'
+        click_on 'Menu'
         click_on 'About'
 
         expect(page).to have_content "About" 
