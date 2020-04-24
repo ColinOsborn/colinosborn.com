@@ -3,11 +3,29 @@
 }
 
 .about-me {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about {
-    text-align: center;
-    position: relative;
-    left: 534px;
+    display: block;
+    width: 100%;
+    max-width: 200px; /*actual image width */
+    height: auto;
+    margin: auto;
+}
+
+.homepage-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-img {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: auto;
 }
