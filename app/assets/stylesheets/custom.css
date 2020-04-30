@@ -14,7 +14,9 @@
     max-width: 200px; /*actual image width */
     height: auto;
     margin: auto;
+    border-radius: 35px;
 }
+
 
 .homepage-banner{
     display: flex;
