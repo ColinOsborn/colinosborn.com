@@ -11,14 +11,14 @@
 .about {
     display: block;
     width: 100%;
-    max-width: 200px; /*actual image width */
+    max-width: 200px;
     height: auto;
     margin: auto;
     border-radius: 35px;
 }
 
 
-.homepage-banner{
+.homepage-banner {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +27,8 @@
 .banner-img {
     display: block;
     width: 100%;
-    max-width: 900px;
+    max-width: 200px; /* actual img size */
     height: auto;
     margin: auto;
+    border-radius: 35px;
 }
