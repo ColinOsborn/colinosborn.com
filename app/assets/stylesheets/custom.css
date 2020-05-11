@@ -31,4 +31,14 @@
     height: auto;
     margin: auto;
     border-radius: 35px;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .banner-img {
+        max-width: 300px;
+    }
+    .about {
+        max-width: 300px;
+    }
 }
