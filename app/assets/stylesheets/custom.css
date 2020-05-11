@@ -69,3 +69,35 @@ li {
 #social-container {
     max-width: 300px;
 }
+
+/* Winter mode & snowflakes creation */
+
+/* .snow-flake {
+  position: absolute;  
+  color: white; 
+  &:after {
+    content: "\2744"; 
+  }
+}
+
+.snowflake:nth-child(1) {
+  top: -20%;
+}
+
+.snowflake:nth-child(2) {
+  top: -40%;
+}
+
+.snowflake:nth-child(3) {
+  top: -33%;
+} */
+
+/* customizable snowflake styling */
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
+}
+
+
