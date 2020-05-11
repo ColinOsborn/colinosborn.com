@@ -51,23 +51,21 @@
     border-radius: 30px;
 }
 
-#menu-outer {
-	height: 100px;
+.social-link {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: block;
+    /* flex: 0 1 auto; */
+    justify-content: center;
+    list-style-type: none;
 }
 
-.table {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
+#social-container {
+    max-width: 300px;
 }
-
-ul#horizontal-list {
-	min-width: 696px;
-	list-style: none;
-    padding-top: 40px;
-    text-align: center;
-    }
-    
-	ul#horizontal-list li {
-		display: inline;
-}
-
