@@ -34,7 +34,7 @@
 
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
     .banner-img {
         max-width: 300px;
     }
@@ -100,4 +100,7 @@ li {
   text-shadow: 0 0 5px #000;
 }
 
-
+/* Header/navbar styles */
+.navbar.navbar-1 .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
