@@ -31,7 +31,15 @@
     height: auto;
     margin: auto;
     border-radius: 35px;
+}
 
+.projects-img {
+    display: block;
+    width: 100%;
+    max-width: 300px; /* actual img size */
+    height: auto;
+    margin: auto;
+    border-radius: 35px;
 }
 
 @media only screen and (max-width: 700px) {
