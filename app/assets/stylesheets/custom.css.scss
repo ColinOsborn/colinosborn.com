@@ -1,4 +1,6 @@
- * {
+@import "bootstrap";
+
+* {
     font-family: 'Reenie Beanie', cursive;
  }
 
@@ -10,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: large;
+    font-size: x-large;
 }
 
 .about {
@@ -21,7 +23,6 @@
     margin: auto;
     border-radius: 35px;
 }
-
 
 .contact {
     font-size: x-large;
@@ -128,4 +129,5 @@ background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000'
 
 .mr-auto, .mx-auto {
     text-align: center !important;
+    font-size: large !important;
 }
