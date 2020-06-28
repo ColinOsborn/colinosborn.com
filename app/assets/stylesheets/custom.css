@@ -1,3 +1,7 @@
+ * {
+    font-family: 'Reenie Beanie', cursive;
+ }
+
 .name-header {
     text-align: center;
 }
@@ -6,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: large;
 }
 
 .about {
@@ -15,6 +20,11 @@
     height: auto;
     margin: auto;
     border-radius: 35px;
+}
+
+.about-page {
+    background-image: url(asset_path("background.png"));
+    background-size: cover;
 }
 
 
@@ -30,7 +40,11 @@
     max-width: 200px; /* actual img size */
     height: auto;
     margin: auto;
-    border-radius: 35px;
+    border-radius: 15px;
+}
+
+.projects {
+    text-align: center;
 }
 
 .projects-img {
