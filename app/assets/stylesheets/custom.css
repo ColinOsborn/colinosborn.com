@@ -27,6 +27,9 @@
     background-size: cover;
 }
 
+.contact {
+    font-size: x-large;
+}
 
 .homepage-banner {
     display: flex;
@@ -125,4 +128,8 @@ li {
 /* Header/navbar styles */
 .navbar.navbar-1 .navbar-toggler-icon {
 background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+
+.mr-auto, .mx-auto {
+    text-align: center !important;
 }
