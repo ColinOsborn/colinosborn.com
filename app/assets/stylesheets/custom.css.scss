@@ -1,5 +1,8 @@
 @import "bootstrap";
 
+//Google font 
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
 * {
     font-family: 'Reenie Beanie', cursive;
  }
@@ -90,6 +93,7 @@ li {
 
 #social-container {
     max-width: 300px;
+    padding: 20px 0 20px;
 }
 
 /* Winter mode & snowflakes creation */
