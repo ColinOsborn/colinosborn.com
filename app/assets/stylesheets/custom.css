@@ -22,10 +22,6 @@
     border-radius: 35px;
 }
 
-.about-page {
-    background-image: url(asset_path("background.png"));
-    background-size: cover;
-}
 
 .contact {
     font-size: x-large;
