@@ -1,11 +1,10 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.5.0'
+ruby '2.7.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-# gem 'rails', '~> 5.2.3'
-gem 'rails', '~> 6.0'
+gem 'rails', '~> 6.0.4'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.2', '>= 1.2.3'
 # Use Puma as the app server
@@ -15,6 +14,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'bootstrap', '~> 4.3.1'
 gem 'sprockets-rails'
 gem 'jquery-rails'
+gem 'mini_racer'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -23,7 +23,8 @@ gem 'uglifier', '>= 1.3.0'
 
 gem "rack", ">= 2.2.3"
 gem "websocket-extensions", ">= 0.1.5"
-gem "activesupport", ">= 5.2.4.5"
+gem 'webpacker', '~> 5.4'
+gem "activesupport", ">= 5.2.4.3"
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
