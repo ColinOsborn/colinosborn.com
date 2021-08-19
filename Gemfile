@@ -14,6 +14,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'bootstrap', '~> 4.3.1'
 gem 'sprockets-rails'
 gem 'jquery-rails'
+gem 'mini_racer'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -22,6 +23,7 @@ gem 'uglifier', '>= 1.3.0'
 
 gem "rack", ">= 2.2.3"
 gem "websocket-extensions", ">= 0.1.5"
+gem 'webpacker', '~> 5.4'
 gem "activesupport", ">= 5.2.4.3"
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
