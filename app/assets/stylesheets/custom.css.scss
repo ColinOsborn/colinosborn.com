@@ -1,99 +1,98 @@
 @import "bootstrap";
-
 //Google font 
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 
 * {
-    font-family: 'Reenie Beanie', cursive;
- }
+  font-family: 'Reenie Beanie', cursive;
+}
 
 .name-header {
-    text-align: center;
+  text-align: center;
 }
 
 .about-me {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
 }
 
 .about {
-    display: block;
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    margin: auto;
-    border-radius: 35px;
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: auto;
+  border-radius: 35px;
 }
 
 .contact {
-    font-size: x-large;
+  font-size: x-large;
 }
 
 .homepage-banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner-img {
-    display: block;
-    width: 100%;
-    max-width: 200px; /* actual img size */
-    height: auto;
-    margin: auto;
-    border-radius: 15px;
+  display: block;
+  width: 100%;
+  max-width: 200px; /* actual img size */
+  height: auto;
+  margin: auto;
+  border-radius: 15px;
 }
 
 .projects {
-    text-align: center;
+  text-align: center;
 }
 
 .projects-img {
-    display: block;
-    width: 100%;
-    max-width: 300px; /* actual img size */
-    height: auto;
-    margin: auto;
-    border-radius: 35px;
+  display: block;
+  width: 100%;
+  max-width: 300px; /* actual img size */
+  height: auto;
+  margin: auto;
+  border-radius: 35px;
 }
 
 @media only screen and (max-width: 700px) {
-    .banner-img {
-        max-width: 300px;
-    }
-    .about {
-        max-width: 300px;
-    }
+  .banner-img {
+    max-width: 300px;
+  }
+  .about {
+    max-width: 300px;
+  }
 }
 
 /* footer styles */
 
 .social-icons-img {
-    max-width: 50px;
-    max-height: 50px;
-    border-radius: 30px;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 30px;
 }
 
 .social-link {
-    display: flex;
-    align-items: stretch; /* Default */
-    justify-content: space-between;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
+
 li {
-    display: block;
-    /* flex: 0 1 auto; */
-    justify-content: center;
-    list-style-type: none;
+  display: block;
+  justify-content: center;
+  list-style-type: none;
 }
 
 #social-container {
-    max-width: 300px;
-    padding: 20px 0 20px;
+  max-width: 300px;
+  padding: 20px 0 20px;
 }
 
 /* Winter mode & snowflakes creation */
@@ -128,10 +127,16 @@ li {
 
 /* Header/navbar styles */
 .navbar.navbar-1 .navbar-toggler-icon {
-background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
 }
 
 .mr-auto, .mx-auto {
-    text-align: center !important;
-    font-size: large !important;
+  text-align: center !important;
+  font-size: large !important;
+}
+
+p.source {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
